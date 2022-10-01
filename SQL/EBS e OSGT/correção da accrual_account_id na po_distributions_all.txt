@@ -1,0 +1,217 @@
+----POs que não subiram para o AP - correção da accrual_account_id na po_distributions_all
+
+declare
+
+  v_segment1             gl_code_combinations.segment1%type;
+  v_segment2             gl_code_combinations.segment2%type;
+  v_segment3             gl_code_combinations.segment3%type;
+  v_segment4             gl_code_combinations.segment4%type;
+  v_segment5             gl_code_combinations.segment5%type;
+  v_segment6             gl_code_combinations.segment6%type;
+  v_segment7             gl_code_combinations.segment7%type;
+  v_segment8             gl_code_combinations.segment8%type;
+  v_concat_segs          gl_code_combinations_kfv.concatenated_segments%type;
+  p_chart_of_accounts_id number;
+  w_new_ccid             number;
+  v_coa_id               number;
+  v_state                varchar2(2);
+  --
+  --
+  -- recupera os segmentos atuais
+begin
+
+  for x in (select po_distribution_id, accrual_account_id
+              from apps.po_distributions_all
+             where po_header_id in ('998974',
+                                    '998982',
+                                    '998983',
+                                    '998985',
+                                    '998986',
+                                    '998987',
+                                    '998989',
+                                    '999101',
+                                    '999102',
+                                    '999103',
+                                    '999104',
+                                    '999105',
+                                    '999106',
+                                    '999107',
+                                    '999108',
+                                    '999109',
+                                    '999110',
+                                    '999111',
+                                    '999112',
+                                    '999113',
+                                    '999114',
+                                    '999115',
+                                    '999117',
+                                    '999118',
+                                    '999130',
+                                    '999381',
+                                    '999382',
+                                    '999383',
+                                    '999384',
+                                    '999385',
+                                    '999386',
+                                    '999401',
+                                    '999402',
+                                    '999403',
+                                    '999404',
+                                    '999405',
+                                    '999406',
+                                    '999407',
+                                    '999408',
+                                    '999409',
+                                    '999410',
+                                    '999411',
+                                    '999412',
+                                    '999413',
+                                    '999414',
+                                    '999415',
+                                    '999416',
+                                    '999418',
+                                    '999474',
+                                    '999475',
+                                    '999476',
+                                    '999477',
+                                    '999478',
+                                    '999479',
+                                    '999480',
+                                    '999481',
+                                    '999482',
+                                    '999483',
+                                    '999484',
+                                    '999485',
+                                    '999486',
+                                    '999487',
+                                    '999488',
+                                    '999491',
+                                    '999492',
+                                    '999691',
+                                    '999692',
+                                    '999694',
+                                    '999695',
+                                    '999696',
+                                    '999697',
+                                    '999698',
+                                    '999699',
+                                    '999133',
+                                    '999134',
+                                    '999135',
+                                    '999136',
+                                    '999138',
+                                    '999139',
+                                    '999140',
+                                    '999141',
+                                    '999142',
+                                    '999143',
+                                    '999144',
+                                    '999145',
+                                    '999200',
+                                    '999222',
+                                    '999223',
+                                    '999227',
+                                    '999228',
+                                    '999229',
+                                    '999230',
+                                    '999234',
+                                    '999235',
+                                    '999236',
+                                    '999237',
+                                    '999238',
+                                    '999239',
+                                    '999240',
+                                    '999241',
+                                    '999242',
+                                    '999243',
+                                    '999244',
+                                    '999245',
+                                    '999246',
+                                    '999247',
+                                    '999248',
+                                    '999249',
+                                    '999250',
+                                    '999251',
+                                    '999252',
+                                    '999253',
+                                    '999254',
+                                    '999256',
+                                    '999257',
+                                    '999258',
+                                    '999259',
+                                    '999260',
+                                    '999261',
+                                    '999262',
+                                    '999263',
+                                    '999264',
+                                    '999265',
+                                    '999266',
+                                    '999267',
+                                    '999268',
+                                    '999269',
+                                    '999270',
+                                    '999271',
+                                    '999272',
+                                    '999273',
+                                    '999274',
+                                    '999275',
+                                    '999276',
+                                    '999277',
+                                    '999278',
+                                    '999279',
+                                    '999280',
+                                    '999281',
+                                    '999282',
+                                    '999283',
+                                    '999284',
+                                    '999688',
+                                    '999689',
+                                    '999690')
+            
+            ) loop
+  
+    begin
+      select gcc.segment1,
+             gcc.segment2,
+             gcc.segment3,
+             gcc.segment4,
+             gcc.segment5,
+             gcc.segment6,
+             gcc.segment7,
+             gcc.segment8,
+             gcc.chart_of_accounts_id
+        into v_segment1,
+             v_segment2,
+             v_segment3,
+             v_segment4,
+             v_segment5,
+             v_segment6,
+             v_segment7,
+             v_segment8,
+             v_coa_id
+        from gl_code_combinations gcc
+       where code_combination_id = x.accrual_account_id;
+    exception
+      when others then
+        null;
+    end;
+    --
+    begin
+    
+      v_concat_segs := v_segment1 || '.' || v_segment2 || '.' || '11570030' || '.' ||
+                       v_segment4 || '.' || v_segment5 || '.' || v_segment6 || '.' ||
+                       v_segment7 || '.' || v_segment8;
+    
+      select code_combination_id
+        into w_new_ccid
+        from gl_code_combinations_kfv
+       where concatenated_segments = v_concat_segs
+         and chart_of_accounts_id = v_coa_id;
+    
+      --
+      update apps.po_distributions_all
+         set accrual_account_id = w_new_ccid
+       where po_distribution_id = x.po_distribution_id;
+    end;
+    --
+  end;
