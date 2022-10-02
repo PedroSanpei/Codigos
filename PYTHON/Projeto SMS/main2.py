@@ -27,6 +27,6 @@ for mes in lista_meses:
 
         print(message.sid)
 
-#PARA CADA ARQUIVO:
+#PARA CADA ARQUIVOS:
 
 #VERIFICAR SE HÁ ALGUM VALOR DE VENDA DA COLUNA VENDAS MAIOR QUE R$55.000,00
