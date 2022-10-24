@@ -8,8 +8,8 @@ in
 not in
 """
 
-login = input('Digite o seu nome: ')
-senha = input('Digite uma Letra: ')
+login = input('Digite o seu usuário: ')
+senha = input('Digite a sua senha: ')
 
 usuario_bd = 'Pedro'
 senha_bd = 'ncbpm@250696**'
