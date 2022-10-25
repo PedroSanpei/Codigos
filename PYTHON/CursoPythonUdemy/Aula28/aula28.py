@@ -7,8 +7,8 @@ num2 = input('Digite o Valor: ')
 # https://github.com/luizomf/check-numbers-python/blob/master/chk_numbers.py
 
 try:
-    num1 = float(num1)
-    num2 = float(num2)
+    num1 = int(num1)
+    num2 = int(num2)
     print(num1 + num2)
 except:
     print('ERROR')
