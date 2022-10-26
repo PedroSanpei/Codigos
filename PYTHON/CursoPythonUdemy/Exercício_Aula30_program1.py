@@ -2,9 +2,9 @@
 def programa_imp_par() -> object:
     num1 = input('Digite um número Inteiro :')
     try:
-        num1 = int(num1) % 2
-        print('Número Inteiro Confirmado')
-        if num1 == 0:
+        num1 = int(num1)
+        pass  # ('Número Inteiro Confirmado')
+        if num1 % 2 == 0:
             print('Par')
         else:
             print('Impar')
