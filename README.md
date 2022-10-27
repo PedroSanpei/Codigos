@@ -2,6 +2,6 @@
 
 ## Code List Involves:
 
-- Python :computer:
-- SQL :computer:
+- Python :snake:
+- SQL :desktop_computer:
 - PL/SQL :computer:
