@@ -3,6 +3,9 @@ For in em Python
 Iterando Strings com for
 Função range(start=0, stop, step=1)
 """
+import openpyxl
+from pandas import DataFrame
+
 # USANDO O FOR E ENUMERATE
 """texto = 'Python'
 for n, letra in enumerate(texto):  # Ele cria um indíce a cada laço
@@ -17,7 +20,7 @@ for n, letra in enumerate(texto):  # Ele cria um indíce a cada laço
     if n % 8 == 0:
         print(n)"""
 #
-texto = 'Pedro'
+"""texto = 'Pedro'
 nova_string = ''
     #  continue - pula para o próximo laço
     #  break - termina a interação
@@ -30,4 +33,5 @@ for letra in texto:
         break
     else:
         nova_string += letra
-print(nova_string)
+print(nova_string)"""
+
