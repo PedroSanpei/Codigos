@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Aula Curso Python Udemy Professor Luiz Otávio">
-      <change afterPath="$PROJECT_DIR$/Login_Senha_Oracle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CursoPythonUdemy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/pedro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_Senha.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Senha.py" afterDir="false" />
+    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Atividade Criando Tela de Login e Cadastro">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login_Senha_Oracle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Senha_Oracle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667137277699</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Atividade Criando Tela de Login e Cadastro">
+      <created>1667325464277</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667325464277</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Atividade Criando Tela de Login e Cadastro">
+      <created>1667325567577</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667325567577</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +313,8 @@
     <MESSAGE value="Aulas 34 a 37 Usando While, While/Else, While/String, For in com função range" />
     <MESSAGE value="PROJETO TESTE LOGIN E SENHA" />
     <MESSAGE value="Aula Curso Python Udemy Professor Luiz Otávio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula Curso Python Udemy Professor Luiz Otávio" />
+    <MESSAGE value="Atividade Criando Tela de Login e Cadastro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade Criando Tela de Login e Cadastro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
