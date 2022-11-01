@@ -58,24 +58,36 @@ while True:
             break
 
     # 1.2 CADASTRAR-SE
-
     elif login_page == 2:
+
+        # 1.2.1 INPUTS NOME, SOBRENOME, SENHA E E-MAIL
         v_nome = input('Digite o seu nome: ').lower()
         v_sobrenome = input('Digite o seu sobrenome: ').lower()
         v_password = input('Digite sua senha até 10 digítos: ')
         v_email = input('Informe seu e-mail: ')
 
+        # 1.2.2 CRIAÇÃO DO LOGIN A PARTIR DO NOME E SOBRENOME
         login_cadastrado = v_nome + '.' + v_sobrenome
 
+        # 1.2.3 VALIDADORES DE TAMANHO LOGIN E SENHA PADRÃO
         tam_log_pad = 20
         tam_pass_pad = 10
 
+        # 1.2.3 CONDIÇÕES
+
+        # 1.2.3.1 CONDIÇÃO 1
         if len(login_cadastrado) > tam_log_pad:
             print(f'Login não pode ser maior que 20 caracteres. O login digitado tem {len(login_cadastrado)} caracteres')
+
+        # 1.2.3.2 CONDIÇÃO 2
         elif len(v_password) > tam_pass_pad:
             print(f'Senha não pode ser maior que 10 dígitos. A senha digitada tem {len(v_password)} dígitos')
+
+        # 1.2.3.3 CONDIÇÃO 3
         else:
             print('Login e Senha criados com sucesso!')
+
+
             import win32com.client as win32
 
             # criar a integração com o outlook
