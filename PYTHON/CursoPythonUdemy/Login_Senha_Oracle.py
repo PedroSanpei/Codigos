@@ -69,7 +69,9 @@ while True:
         v_email = input('Informe seu e-mail: ')
 
         # 1.2.2 CRIAÇÃO DO LOGIN A PARTIR DO NOME E SOBRENOME
-        login_cadastrado = v_nome + '.' + v_sobrenome
+        login_cadastrado = str(v_nome + '.' + v_sobrenome)
+        print(login_cadastrado)
+        pass_cadastrador = int(v_password)
 
         # 1.2.3 VALIDADORES DE TAMANHO LOGIN E SENHA PADRÃO
         tam_log_pad = 20
@@ -87,6 +89,11 @@ while True:
 
         # 1.2.3.3 CONDIÇÃO 3
         else:
+            dsn_tns = cx_Oracle.makedsn('PEDRO-DESK', '1521', service_name='XE')
+            conn = cx_Oracle.connect(user=r'pedro', password='pedro123', dsn=dsn_tns)
+            cursor4 = conn.cursor()
+            cursor4.execute(f"insert into LOGIN_SENHA (LOGIN,SENHA) values ('{login_cadastrado}',{pass_cadastrador})")
+            conn.commit()
             print('Login e Senha criados com sucesso!')
 
             import win32com.client as win32
