@@ -10,7 +10,7 @@ while True:
     # 1.1 LOGAR-SE
     if login_page == 1:
         # 1.1.1 INPUTS DE LOGIN E SENHA
-        login = input('Digite seu Login: ')
+        login = str(input('Digite seu Login: '))
         password = int(input('Digite sua Senha: '))
 
         # 1.1.2 CONEXÃO ORACLE
@@ -27,35 +27,37 @@ while True:
         cursor3 = conn.cursor()
 
         # 1.1.6 EXECUTANDO O CURSOR COM UM SELECT
-        check_login = cursor1.execute(f"SELECT nvl(LOGIN,'') FROM LOGIN_SENHA WHERE LOGIN = '{login}'")
-        check_senha = cursor2.execute(f"SELECT nvl(SENHA, '') FROM LOGIN_SENHA WHERE LOGIN = '{login}'")
+        cursor1_exec = cursor1.execute(f"SELECT LOGIN FROM LOGIN_SENHA WHERE LOGIN = '{login}'")
+        cursor2_exec = cursor2.execute(f"SELECT SENHA FROM LOGIN_SENHA WHERE LOGIN = '{login}'")
 
         # 1.1.7 PASSANDO UMA VARIÁVEL PARA TRAZER O RESULTADO DO SELECT
-        data1 = check_login.fetchone()
-        data2 = check_senha.fetchone()
+        res1 = cursor1_exec.fetchone()
+        res2 = cursor2_exec.fetchone()
+        res1_conv = str(res1)
+        res2_conv = res2
 
         # 1.1.8 CONDIÇÕES DE VALIDAÇÃO
 
+        # 1.1.8.3 CONDIÇÃO 3
+        if login in res1_conv and password in res2_conv:
+            print(f'Seja Bem Vindo {login}')
+            break
+
         # 1.1.8.1 CONDIÇÃO 1
-        if data1 is None and data2 is None:
+        elif res2_conv is None:
             print('Login Inexistente. Cadastre-se')
             cadastrar_se = input('Deseja se cadastrar?  [s]im ou [n]ão: ')
             if cadastrar_se == 'n':
                 break
             elif cadastrar_se == 's':
-                pass
+                retorno = login_page == 2
 
-        # 1.1.8.2 CONDIÇÃO 2
-        elif login in data1 and password != data2:
+        # # 1.1.8.2 CONDIÇÃO 2
+        elif login in res1_conv and password not in res2_conv:
             print('Senha Incorreta')
             sair = input('Tentar Novamente?  [s]im ou [n]ão: ')
             if sair == 'n':
                 break
-
-        # 1.1.8.3 CONDIÇÃO 3
-        elif login in data1 and password in data2:
-            print(f'Seja Bem Vindo {login}')
-            break
 
     # 1.2 CADASTRAR-SE
     elif login_page == 2:
@@ -86,7 +88,6 @@ while True:
         # 1.2.3.3 CONDIÇÃO 3
         else:
             print('Login e Senha criados com sucesso!')
-
 
             import win32com.client as win32
 
