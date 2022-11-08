@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Atualização:&#10;&#10;* CONDIÇÕES">
+    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Aula 38 Curso Python Udemy - Listas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula38/Aula38_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula38/Aula38_Listas.py" afterDir="false" />
     </list>
@@ -29,15 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/WORKSPACE/Codigos/PYTHON/CursoPythonUdemy",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WORKSPACE/Codigos/PYTHON/CursoPythonUdemy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667357968467</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Aula 38 Curso Python Udemy - Listas">
+      <created>1667586975137</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667586975137</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +344,8 @@
     <MESSAGE value="Atividade Criando Tela de Login e Cadastro" />
     <MESSAGE value="Atualização:&#10;&#10;* LOGIN&#10;* CADASTRO&#10;* ENVIO DE E-MAIL" />
     <MESSAGE value="Atualização:&#10;&#10;* CONDIÇÕES" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização:&#10;&#10;* CONDIÇÕES" />
+    <MESSAGE value="Aula 38 Curso Python Udemy - Listas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 38 Curso Python Udemy - Listas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
