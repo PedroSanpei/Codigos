@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Atualização:&#10;&#10;* CONDIÇÕES">
+    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Atualização:&#10;&#10;* CONDIÇÕES&#10;* INSERÇÃO BANCO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_Senha_Oracle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Senha_Oracle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy\aula1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Exemplo5_While">
     <configuration name="Exemplo5_While" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoPythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667357968467</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Atualização:&#10;&#10;* CONDIÇÕES&#10;* INSERÇÃO BANCO">
+      <created>1667414235851</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667414235851</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +343,8 @@
     <MESSAGE value="Atividade Criando Tela de Login e Cadastro" />
     <MESSAGE value="Atualização:&#10;&#10;* LOGIN&#10;* CADASTRO&#10;* ENVIO DE E-MAIL" />
     <MESSAGE value="Atualização:&#10;&#10;* CONDIÇÕES" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização:&#10;&#10;* CONDIÇÕES" />
+    <MESSAGE value="Atualização:&#10;&#10;* CONDIÇÕES&#10;* INSERÇÃO BANCO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização:&#10;&#10;* CONDIÇÕES&#10;* INSERÇÃO BANCO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
