@@ -2,10 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Commit Geral">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula1/aula1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula1/aula1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/aula3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aula3/aula3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula8/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula27/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula27/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula27/aula27.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula27/aula27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula28/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula28/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula28/aula28.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula28/aula28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula29/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula29/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula29/aula29.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula29/aula29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula32/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula32/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula32/exemplo_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula32/exemplo_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula33/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula33/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula33/exemplo_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula33/exemplo_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_For_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_For_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_While.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_While_Else.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While_Else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo6_While_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo6_While_String.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula38/Aula38_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/Aula38_Listas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula38/JogoForca" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/JogoForca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula38/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula1/aula1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula1/aula1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula2/aula2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula2/aula2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/aula3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/aula3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/exemplo_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula4/aula4.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula4/aula4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula5/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula4/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula5/aula5.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula5/aula5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula6/aula6.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula6/aula6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula7/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula6/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula7/aula7.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula7/aula7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula8/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula7/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula8/aula8.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula8/aula8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +90,7 @@
       <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy\AULAS REFERENTE A SEÇÃO 26 UDEMY" />
       <recent name="C:\WORKSPACE\Codigos\PYTHON\JogoForca" />
       <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy" />
       <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy\Aula34" />
@@ -114,7 +152,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercício_Aula30_program2.py" />
+      <option name="SCRIPT_NAME" value="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy\AULAS REFERENTE A SEÇÃO 26 UDEMY\Exercício_Aula30_program2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668445381528</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Commit Geral">
+      <created>1668453000257</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668453000257</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +414,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_While_Else.py</url>
+          <url>file://$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While_Else.py</url>
           <line>9</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
