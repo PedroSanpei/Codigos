@@ -14,6 +14,7 @@ print(id(v1)==id(v2))"""
 
 condicao = False
 passsou_no_if = None
+
 if condicao:
     passsou_no_if = True # Flag
     print('Faço Algo')
