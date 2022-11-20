@@ -1,48 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Commit Geral">
-      <change afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula8/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula27/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula27/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula27/aula27.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula27/aula27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula28/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula28/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula28/aula28.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula28/aula28.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula29/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula29/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula29/aula29.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula29/aula29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula32/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula32/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula32/exemplo_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula32/exemplo_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula33/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula33/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula33/exemplo_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula33/exemplo_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_For_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_For_in.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_While.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo5_While_Else.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While_Else.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/Exemplo6_While_String.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo6_While_String.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula34_35_36_37/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula38/Aula38_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/Aula38_Listas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula38/JogoForca" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/JogoForca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula38/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula38/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício_Aula30_program3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Exercício_Aula30_program3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula1/aula1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula1/aula1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula2/aula2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula2/aula2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/aula3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/aula3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/exemplo_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula3/exemplo_1_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/exemplo_1_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula4/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula4/aula4.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula4/aula4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula5/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula4/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula5/aula5.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula5/aula5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula6/aula6.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula6/aula6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula7/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula6/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula7/aula7.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula7/aula7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula8/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula7/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula8/aula8.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/aula8/aula8.py" afterDir="false" />
+    <list default="true" id="ccb02f61-6d79-494b-b0f2-3c0e2163597e" name="Changes" comment="Commit Geral e Organização">
+      <change afterPath="$PROJECT_DIR$/ProgramaAuto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intensivão de Python/.idea/Intensivão de Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intensivão de Python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intensivão de Python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intensivão de Python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JogoForca/.idea/JogoForca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26, 27 e 28 UDEMY Legado 2019/Aula38/Aula38_Listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26, 27 e 28 UDEMY Legado 2019/Aula38/Aula38_Listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/WORKSPACE/Codigos/PYTHON/CursoPythonUdemy",
+    "last_opened_file_path": "C:/WORKSPACE/Codigos/PYTHON/Intensivão de Python",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -97,7 +64,7 @@
       <recent name="C:\WORKSPACE\Codigos\PYTHON\CursoPythonUdemy\aula1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Exemplo5_While">
     <configuration name="Exemplo5_While" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoPythonUdemy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668453000257</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Commit Geral e Organização">
+      <created>1668453758911</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668453758911</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Commit Geral e Organização">
+      <created>1668453791714</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668453791714</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,13 +389,14 @@
     <MESSAGE value="Atualização:&#10;&#10;* LOGIN&#10;* CADASTRO&#10;* ENVIO DE E-MAIL" />
     <MESSAGE value="Atualização:&#10;&#10;* CONDIÇÕES" />
     <MESSAGE value="Commit Geral" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Geral" />
+    <MESSAGE value="Commit Geral e Organização" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Geral e Organização" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26 UDEMY/Aula34_35_36_37/Exemplo5_While_Else.py</url>
+          <url>file://$PROJECT_DIR$/AULAS REFERENTE A SEÇÃO 26, 27 e 28 UDEMY Legado 2019/Aula34_35_36_37/Exemplo5_While_Else.py</url>
           <line>9</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

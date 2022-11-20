@@ -3,7 +3,6 @@ LISTAS EM PYTHON 123
 FATIAMENTO
 APPEND, INSERT, POP, DEL, CLEAR, EXTEND, +, MIN, MAX RANGE
 """
-from typing import List, Any
 
 """#INDEX +    0    1       2    3    4         5     6
 lista1 =   ['A', 'Bife', 'C', 'D', 'Escuela', 10.5, 10]

@@ -5,6 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="JogoForca" />
+    <orderEntry type="module" module-name="Intensivão de Python" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
