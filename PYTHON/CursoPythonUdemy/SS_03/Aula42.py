@@ -4,7 +4,7 @@ frase = 'O Python é uma linguagem de programação' \
 
 i = 0
 qtd_apareceu_mais_vezes = 0
-letra_apareceu_mais_vezes = ''
+letra_apareceu_mais_x = ''
 
 while i < len(frase):
     letra_atual = frase[i]
@@ -13,16 +13,16 @@ while i < len(frase):
         i += 1
         continue
 
-    qtd_apareceu_mais_vezes_atual = frase.count(letra_atual)
+    qtd_atual = frase.count(letra_atual)
 
-    if qtd_apareceu_mais_vezes < qtd_apareceu_mais_vezes_atual:
-        qtd_apareceu_mais_vezes = qtd_apareceu_mais_vezes_atual
-        letra_apareceu_mais_vezes = letra_atual
+    if qtd_aparicoes < qtd_atual:
+        qtd_aparicoes = qtd_atual
+        letra_apareceu_mais_x = letra_atual
 
     i += 1
 
 print(
     'A letra que apareceu mais vezes foi '
-    f'"{letra_apareceu_mais_vezes}" que apareceu '
-    f'{qtd_apareceu_mais_vezes}x'
+    f'"{letra_apareceu_mais_x}" que apareceu '
+    f'{qtd_aparicoes}x'
 )

@@ -1,6 +1,11 @@
-nome = 'Maria Carmo'
+linhas = 2
+colunas = 2
  
-if ' ' in nome:
-    print(f'O nome {nome} tem espaços.')
-else:
-    print(f'O nome {nome} NÃO tem espaços.')
+linha = 1
+while linha <= linhas:
+    coluna = 1
+    while coluna <= colunas:
+        print(linha, coluna)
+        coluna += 1
+    linha += 1
+ 
