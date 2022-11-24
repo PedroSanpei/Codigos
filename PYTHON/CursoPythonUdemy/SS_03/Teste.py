@@ -1,11 +1,3 @@
-linhas = 2
-colunas = 2
- 
-linha = 1
-while linha <= linhas:
-    coluna = 1
-    while coluna <= colunas:
-        print(linha, coluna)
-        coluna += 1
-    linha += 1
- 
+lista1 = []
+lista2 =['2']
+print(lista1==lista2)

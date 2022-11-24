@@ -34,6 +34,7 @@ while True:
 
     # ACRESCENTA A LETRA DIGITADA NA VÁRIAVEL DE LISTA "DIGITADAS"     
     digitadas.append(letra)
+    print(digitadas)
 
     # CONDIÇÃO PARA VALIDAR SE A LETRA DIGITADA ESTÁ NA PALAVRA SECRETA
     if letra in secreto:
