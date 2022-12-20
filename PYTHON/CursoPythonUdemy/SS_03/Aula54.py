@@ -8,49 +8,36 @@ inexistentes na lista
 import os
 
 lista = []
-indices = enumerate(lista)
 
 while True:
+    print('Selecione uma opção')
+    opcao = input('[i]nserir [a]pagar [l]istar: ')
 
-    menu_inicial = input("""SEJA BEM VINDO A SUA LISTA DE COMPRAS!!!
-Você deseja:
-[I]nserir
-[D]eletar
-[L]istar
-[S]air: """)
+    if opcao == 'i':
+        os.system('cls')
+        valor = input('Valor: ')
+        lista.append(valor)
 
-    # CONDIÇÃO PARA INSERIR NA LISTA
-    if menu_inicial == 'i':
-        while True:
-            valor_lista = input('Digite o que deseja colocar na sua lista: ')
-            lista.append(valor_lista)
-            print(lista)
-            sair = input('Deseja Sair? [S] ou [N]: ')
-            if sair == 's':
-                os.system('cls')
-                break
-    
-    elif menu_inicial == 'l':
+    elif opcao == 'a':
+        indice_str = input('Escolha o índice para apagar: ')
 
-        print('\tA SUA LISTA ATUAL É ESSA:')
-        if lista == []:
-            print('\tLista Vazia')
-            continue
-        else:
-            for indice in indices:
-                indice2, produto2 = indice
-                print(f'\t{indice2} - {produto2}')
-    
-    elif menu_inicial == 'd':
-        print(lista)
-
-    elif menu_inicial == 's':
-        break
-
-    else:
-        print('Essa opção não existe no nosso menu')
-                
+        try:
+            indice = int(indice_str)
+            del lista[indice]
+        except ValueError:
+            print('Por favor digite número int.')
+        except IndexError:
+            print('Índice não existe na lista')
+        except Exception:
+            print('Erro desconhecido')
             
-        
-    
+    elif opcao == 'l':
+        os.system('cls')
 
+        if len(lista) == 0:
+            print('Nada para listar')
+
+        for i, valor in enumerate(lista):
+            print(i, valor)
+    else:
+        print('Por favor, escolha i, a ou l.')
